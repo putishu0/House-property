@@ -48,6 +48,9 @@ table {
 @font-face {
   font-family: 'myfont';
   src: url(../font/font.ttf); }
+@font-face {
+  font-family: 'myfont1';
+  src: url(../font/font1.ttf); }
 body {
   width: 100%;
   height: 30.25333rem;
@@ -83,7 +86,7 @@ header {
       color: #fff;
       bottom: 0.33333rem;
       left: 0.26667rem;
-      font-family: 'Gska00h142de531691cdb5'; }
+      font-family: myfont1; }
   .banner div:nth-child(2) {
     height: 3.77333rem;
     width: 100%;
@@ -276,15 +279,15 @@ header {
         height: 100%;
         width: 0.86667rem;
         align-items: center;
-        justify-content: center; }
+        justify-content: center;
+        border-right: 3px solid #866e9e; }
         .hot .input div span img {
           width: 0.49333rem;
           height: 0.53333rem; }
       .hot .input div input {
-        height: 80%;
+        height: 100%;
         width: 6.53333rem;
         border: none;
-        border-left: 3px solid #866e9e;
         text-indent: 0.2rem;
         color: #222;
         outline: none; }

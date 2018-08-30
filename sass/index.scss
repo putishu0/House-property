@@ -20,6 +20,10 @@ $rem:75;//公共尺寸
     font-family: 'myfont';
     src:url(../font/font.ttf)
 }
+@font-face{
+    font-family: 'myfont1';
+    src:url(../font/font1.ttf)
+}
 body{
     width:100%;
     height:2269/$rem*1rem;
@@ -57,7 +61,7 @@ header{
              color:#fff;
              bottom:25/$rem*1rem;
              left:20/$rem*1rem;
-             font-family:'Gska00h142de531691cdb5';
+             font-family:myfont1;
          }
     }
    div:nth-child(2){
@@ -283,16 +287,16 @@ header{
                  width:65/$rem*1rem;
                  align-items: center;
                  justify-content: center;
+                 border-right:3px solid #866e9e;
                  img{
                      width:37/$rem*1rem;
                      height:40/$rem*1rem;
                  }
              }
              input{
-                 height:80%;
+                 height:100%;
                  width:490/$rem*1rem;
                  border:none;
-                 border-left:3px solid #866e9e;
                  text-indent: 15/$rem*1rem;
                  color:#222; 
                  outline: none;
