@@ -142,6 +142,10 @@ header {
       border-right: 1px solid #9f8cb2;
       display: flex;
       flex-direction: column; }
+      .product ul li:nth-child(2) {
+        width: 2.13333rem; }
+      .product ul li:nth-child(3) {
+        width: 1.29333rem; }
       .product ul li span {
         display: flex;
         height: 0.6rem;

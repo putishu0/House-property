@@ -126,13 +126,19 @@ header{
             border-right:1px solid #9f8cb2;
             display: flex;
             flex-direction: column;
+            &:nth-child(2){
+                width:160/$rem*1rem;
+            }
+             &:nth-child(3){
+                width:97/$rem*1rem;
+            }
             span{
                 display: flex;
                 height:45/$rem*1rem;
                 justify-content: center;
                 align-items: center;
                 border-bottom: 1px solid #9f8cb2;
-                color:#9f8cb2
+                color:#9f8cb2;
             }
             p{
                 height:78/$rem*1rem;
