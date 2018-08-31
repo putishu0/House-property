@@ -143,9 +143,15 @@ header {
       display: flex;
       flex-direction: column; }
       .product ul li:nth-child(2) {
+        width: 1.53333rem; }
+      .product ul li:nth-child(2) {
         width: 2.13333rem; }
       .product ul li:nth-child(3) {
-        width: 1.29333rem; }
+        width: 1.34667rem; }
+      .product ul li:nth-child(4) {
+        width: 1.58667rem; }
+      .product ul li:nth-child(5) {
+        width: 1.30667rem; }
       .product ul li span {
         display: flex;
         height: 0.6rem;
